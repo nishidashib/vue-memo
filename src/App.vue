@@ -1,5 +1,5 @@
 <style lang="scss">
-  @import '../static/styles.css';
+  @import '../static/styles.scss';
   html, body {
     color: #555;
     margin: 0;
