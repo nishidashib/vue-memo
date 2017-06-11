@@ -40,16 +40,14 @@ body {
   justify-content: flex-end;
   padding: 5px 0 0;
 }
-.editor-view {
-   button {
-    margin-left: 10px;
-    background-color: #555;
-    color: #eee;
-    cursor: pointer;
-    border: none;
-    width: 100px;
-    line-height: 30px;
-  }
+.editor-view button {
+  margin-left: 10px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  line-height: 30px;
 }
 
 .list-view {
@@ -72,28 +70,24 @@ body {
   min-width: 26px;
 }
 
-.list-item > div span:nth-of-type(2) {
-  span {
-    font-size: 10px;
-    background-color: #555;
-    color: #fff;
-    padding: 3px 5px;
-    position: relative;
-    margin-right: 5px;
-  }
+.list-item > div span:nth-of-type(2) span {
+  font-size: 10px;
+  background-color: #555;
+  color: #fff;
+  padding: 3px 5px;
+  position: relative;
+  margin-right: 5px;
 }
 
-.list-item > div:nth-of-type(5) {
-  button {
-    cursor: pointer;
-    border: none;
-    color: #fff;
-    background-color: tomato;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    display: none;
-  }
+.list-item > div:nth-of-type(5) button {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: tomato;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
 }
 .list-item:hover > div:nth-of-type(5) button {
   display: block;
